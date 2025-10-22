@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-  <resources>
-      <style name="Theme.GestorTurnosLaundry" parent="Theme.Material3.DayNight.NoActionBar" />
+  <resources xmlns:tools="http://schemas.android.com/tools">
+      <!-- Base application theme. -->
+      <style name="Theme.GestorTurnosLaundry" parent="Theme.AppCompat.DayNight.NoActionBar">
+          <!-- Primary brand color. -->
+          <item name="colorPrimary">@android:color/holo_blue_bright</item>
+          <item name="colorPrimaryDark">@android:color/holo_blue_dark</item>
+          <item name="colorAccent">@android:color/holo_blue_bright</item>
+          <!-- Customize your theme here. -->
+          <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryDark</item>
+      </style>
   </resources>
