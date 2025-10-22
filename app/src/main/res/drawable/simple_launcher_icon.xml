@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+
+    <!-- Background circle -->
+    <path
+        android:fillColor="#1976D2"
+        android:pathData="M24,4 C35.05,4 44,12.95 44,24 C44,35.05 35.05,44 24,44 C12.95,44 4,35.05 4,24 C4,12.95 12.95,4 24,4 Z" />
+
+    <!-- Inner circle (washing machine door) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M24,12 C30.63,12 36,17.37 36,24 C36,30.63 30.63,36 24,36 C17.37,36 12,30.63 12,24 C12,17.37 17.37,12 24,12 Z" />
+
+    <!-- Inner border -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#1976D2"
+        android:strokeWidth="2"
+        android:pathData="M24,14 C29.52,14 34,18.48 34,24 C34,29.52 29.52,34 24,34 C18.48,34 14,29.52 14,24 C14,18.48 18.48,14 24,14 Z" />
+
+</vector>

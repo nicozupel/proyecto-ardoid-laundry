@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Gestor Turnos Laundry</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Inicio</string>
+    <string name="nav_calendar">Calendario</string>
+    <string name="nav_bookings">Mis Turnos</string>
+    <string name="nav_machines">Máquinas</string>
+    <string name="nav_admin">Administración</string>
+
+    <!-- Common -->
+    <string name="ok">Aceptar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="save">Guardar</string>
+    <string name="delete">Eliminar</string>
+    <string name="edit">Editar</string>
+    <string name="confirm">Confirmar</string>
+    <string name="loading">Cargando…</string>
+    <string name="error">Error</string>
+    <string name="retry">Reintentar</string>
+
+    <!-- Machine States -->
+    <string name="machine_state_available">Disponible</string>
+    <string name="machine_state_reserved">Reservado</string>
+    <string name="machine_state_in_use">En Uso</string>
+    <string name="machine_state_grace">Periodo de Gracia</string>
+    <string name="machine_state_maintenance">Mantenimiento</string>
+    <string name="machine_state_out_of_service">Fuera de Servicio</string>
+
+    <!-- Booking -->
+    <string name="book_slot">Reservar Turno</string>
+    <string name="booking_confirmed">Turno confirmado</string>
+    <string name="booking_cancelled">Turno cancelado</string>
+    <string name="booking_rescheduled">Turno reprogramado</string>
+
+    <!-- Notifications -->
+    <string name="notification_reminder_title">Recordatorio de turno</string>
+    <string name="notification_cycle_end_title">Ciclo completado</string>
+    <string name="notification_booking_updated_title">Turno actualizado</string>
+
+</resources>
