@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <style name="Theme.GestorTurnosLaundry" parent="android:Theme.Material.DayNight.NoActionBar" />
-</resources>
+  <resources>
+      <style name="Theme.GestorTurnosLaundry" parent="Theme.Material3.DayNight.NoActionBar" />
+  </resources>
